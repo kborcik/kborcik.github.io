@@ -33,13 +33,40 @@ const views = {
     "projects": `
         <section id="projects" class="section">
             <h2>Projects</h2>
-            <Hey Dad: An Ai tool used to be a mentor 
+            <p>Hey Dad: An Ai tool used to be a mentor, answering your questions as if a nuturing kind father figure
+            <ul>
+            <li>node.js<li>
+            <li>openAI API<li>
+            <li>bit.io databases with PostReqSQL<li>
+            <li>axios requests<li>
+            <li>styling with CSS<li>
+            <li>Server hosting with AWS<li>
+            </ul>
+
+            <br><br>
+
+            You can watch a video how Trish, a 19 yr-old college student, is using hey dad here:
+            <br><br>
+             https://www.loom.com/share/d014a39824194dd88eaa1a918c6483c0
+
+            You can check out the code for the app here:
+            <br><br>
+            https://github.com/kborcik/capstone
+            <br><br>
+            You can of course use the app for yourself here:
+            <br><br>
+            http://35.172.182.106/
+            <p>
         </section>
     `,
     "contact": `
         <section id="contact" class="section">
             <h2>Contact</h2>
-            <p>Kyle can be reached via email at kyleborcikdreams@gmail.com<p>
+            <p>More about Kyle can be viewed on his linked in: https://www.linkedin.com/in/kyle-borcik-939a2894/
+        <br><br>
+        He uploads regularly to Github at: https://github.com/kborcik
+        <br><br>
+        Kyle can be reached via email at kyleborcikdreams@gmail.com<p>
         </section>
     `
 }
