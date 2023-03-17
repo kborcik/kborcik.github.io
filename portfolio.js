@@ -30,7 +30,9 @@ const views = {
     `,
     "projects": `
         <section id="projects" class="section">
-            <h2>Projects</h2>
+            <h2>Projects</h2><br><br>
+
+            <h3>Hey Dad</h3>
             <p>Hey Dad: An Ai tool used to be a mentor, answering your questions as if a nuturing kind father figure
             <br><br>
             -node.js<br>
@@ -40,27 +42,20 @@ const views = {
             -styling with CSS<br>
             -Server hosting with AWS<br><br>
 
-            You can watch a video how Trish, a 19 yr-old college student, is using hey dad here:
+            You can watch a video how Trish, a 19 yr-old college student, is using hey dad <a href="https://www.loom.com/share/d014a39824194dd88eaa1a918c6483c0">here.</a>
             <br><br>
-             https://www.loom.com/share/d014a39824194dd88eaa1a918c6483c0
+            You can check out the code for the app on Github <a href="https://github.com/kborcik/capstone">here</a>.
             <br><br>
-            You can check out the code for the app here:
-            <br><br>
-            https://github.com/kborcik/capstone
-            <br><br>
-            You can of course use the app for yourself here:
-            <br><br>
-            http://35.172.182.106/
+            You can of course use the app for yourself here: <a href="http://35.172.182.106/">http://35.172.182.106/</a>
             </p>
         </section>
     `,
     "contact": `
         <section id="contact" class="section">
             <h2>Contact</h2>
-            <p>More about Kyle can be viewed on his linked in: <br>
-             https://www.linkedin.com/in/kyle-borcik-939a2894/
+            <p>More about Kyle can be viewed on his <a href="https://www.linkedin.com/in/kyle-borcik-939a2894/">linkedIn</a>
         <br><br>
-        He uploads regularly to Github at: https://github.com/kborcik
+        He uploads regularly to <a href="https://github.com/kborcik">Github</a>
         <br><br>
         Kyle can be reached via email at kyleborcikdreams@gmail.com<p>
         </section>
