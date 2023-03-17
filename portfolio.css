@@ -80,3 +80,7 @@ a {
 a:hover{
     cursor: pointer;
 }
+
+p{
+    padding:50px;
+}

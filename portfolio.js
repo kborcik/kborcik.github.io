@@ -18,37 +18,32 @@ const views = {
     "skills": `
         <section id="skills" class="section">
             <h2>Skills</h2>
-            <p>Kyle has implented web apps using the following tools & skills:<p>
-            <ul>
-            <li>javascript</li>
-            <li>css</li>
-            <li>api's (postman, axios requests/endpoints)</li>
-            <li>external libraries (node, rollbar, json) </li>
-            <li>hosted with aws, and bluehost</li>
-            <li>Database posts and queries using PostreqSQL (sequelize)</li>
-            <li></li>
-            </ul>
+            <p>Kyle has implented web apps using the following tools & skills:<br><br><br>
+            -javascript<br>
+            -css<br>
+            -api's (postman, axios requests/endpoints)<br>
+            -external libraries (node, rollbar, json) <br>
+            -hosted with aws, and bluehost<br>
+            -Database posts and queries using PostreqSQL (sequelize)<br><br>
+            </p>
         </section>
     `,
     "projects": `
         <section id="projects" class="section">
             <h2>Projects</h2>
             <p>Hey Dad: An Ai tool used to be a mentor, answering your questions as if a nuturing kind father figure
-            <ul>
-            <li>node.js<li>
-            <li>openAI API<li>
-            <li>bit.io databases with PostReqSQL<li>
-            <li>axios requests<li>
-            <li>styling with CSS<li>
-            <li>Server hosting with AWS<li>
-            </ul>
-
             <br><br>
+            -node.js<br>
+            -openAI API<br>
+            -bit.io databases with PostReqSQL<br>
+            -axios requests<br>
+            -styling with CSS<br>
+            -Server hosting with AWS<br><br>
 
             You can watch a video how Trish, a 19 yr-old college student, is using hey dad here:
             <br><br>
              https://www.loom.com/share/d014a39824194dd88eaa1a918c6483c0
-
+            <br><br>
             You can check out the code for the app here:
             <br><br>
             https://github.com/kborcik/capstone
@@ -56,13 +51,14 @@ const views = {
             You can of course use the app for yourself here:
             <br><br>
             http://35.172.182.106/
-            <p>
+            </p>
         </section>
     `,
     "contact": `
         <section id="contact" class="section">
             <h2>Contact</h2>
-            <p>More about Kyle can be viewed on his linked in: https://www.linkedin.com/in/kyle-borcik-939a2894/
+            <p>More about Kyle can be viewed on his linked in: <br>
+             https://www.linkedin.com/in/kyle-borcik-939a2894/
         <br><br>
         He uploads regularly to Github at: https://github.com/kborcik
         <br><br>
@@ -82,3 +78,9 @@ const changeView = evt => {
 for(let i = 0; i < navLinks.length; i++){
     navLinks[i].addEventListener('click', changeView)
 }
+
+const loadAbout = () =>{
+    main.innerHTML = views.about
+}
+
+loadAbout()
